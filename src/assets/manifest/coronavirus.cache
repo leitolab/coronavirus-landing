@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+CACHE:
+*.png
+*.jpg
+*.woff
+
+NETWORK:
+*.html
+*.json
+
+FALLBACK
+/ /

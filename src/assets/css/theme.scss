@@ -1,0 +1,20 @@
+@import "~@angular/material/theming";
+@import "paleta.scss";
+
+@include mat-core;
+
+$main-app-primary: mat-palette($cafe, 500);
+$main-app-accent: mat-palette($gris, 500);
+$main-app-warn: mat-palette($rojo, 700);
+$main-app-theme: mat-light-theme($main-app-primary, $main-app-accent, $main-app-warn);
+
+$dark-app-primary: mat-palette($gris, 500);
+$dark-app-accent: mat-palette($cafe, 50);
+$dark-app-warn: mat-palette($rojo, 700);
+$dark-app-theme: mat-dark-theme($dark-app-primary, $dark-app-accent, $dark-app-warn);
+
+@include angular-material-theme($main-app-theme);
+
+.dark-theme {
+    @include angular-material-theme($dark-app-theme);
+}

@@ -1,0 +1,17 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "linuxAndroidStudioPath": "/usr/bin/android-studio",
+  "cordova": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 60000,
+      "backgroundColor": "#04172d",
+      "launchAutoHide": false,
+      "androidScaleType": "FIT_CENTER"
+    }
+  }
+}
