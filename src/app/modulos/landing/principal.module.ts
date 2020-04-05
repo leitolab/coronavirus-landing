@@ -4,6 +4,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { PoliticasComponent } from './politicas/politicas.component';
+import { CabeceraComponent } from './principal/cabecera/cabecera.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [PrincipalComponent, PoliticasComponent],
+  declarations: [PrincipalComponent, PoliticasComponent, CabeceraComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),

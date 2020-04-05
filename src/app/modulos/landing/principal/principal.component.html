@@ -1,18 +1,619 @@
-<div class="inicio container-fluid">
-  <div class="row">
-    <div class="col center">
-      <img src="/assets/img/logo.jpg" alt="logo" class="img-fluid">
-      <h1>¡Entre todo nos cuidamos, más y mejor!</h1>
-      <br>
-      <p class="texto col">En un país como el nuestro el aislamiento total es algo muy dificil para los mas vulnerables
-        por eso queremos poner a disposición este servicio para poder frenar las cadenas de contagio. Estamos trabajando
-        lo más rápido posible para poder ayudarte.</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="informacion row">
-    <div class="col center">Si quieres ayudarnos no dudes escribirnos a <a
-        href="mailto:leonardo@conicomlab.">leonardo@conicomlab.com</a></div>
-    <div class="col center">Las políticas de uso puedes verlas <a routerLink="/politicas">aquí</a></div>
+<div class="nk-wrap">
+  <div class="nk-pages">
+
+    <app-cabecera></app-cabecera>
+
+    <section class="section section-l bg-white section-about" id="about">
+      <div class="container">
+        <div class="row g-gs justify-content-center align-items-center">
+          <div class="col-lg-8">
+            <div class="list-block pr-lg-4">
+              <h4 class="subtitle">Una app que protege la salud de los colombianos</h4>
+              <h2 class="title">Frenemos juntos el Coronavirus <br class="d-sm-none">(COVID-19)</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="about-list">
+                    <img src="images/gfx/check.png" width="40px" height="40px" alt="">
+                  </div>
+                  <div class="col about-list">
+                    <p>Esta app te permite observar y controlar en tiempo real las zonas de riesgo en
+                      tu ciudad. Recuerda salir de casa sólo cuando sea estrictamente necesario.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="about-list">
+                    <img src="images/gfx/warning.png" width="40px" height="40px" alt="">
+                  </div>
+                  <div class="col about-list">
+                    <ul>
+                      <li>Determina automáticamente a qué nivel de riesgo estuviste expuesto y cuáles
+                        son las medidas de seguridad que debes tomar en cuenta al salir y llegar a tu hogar.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="about-list">
+                    <img src="images/gfx/time.png" width="40px" height="40px" alt="">
+                  </div>
+                  <div class="col about-list">
+                    <ul>
+                      <li>Si presentas algunos síntomas, MISCUA te brindará información verídica y útil en caso
+                        de requerir asistencia médica.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="about-list">
+                    <img src="images/gfx/medic.png" width="40px" height="40px" alt="">
+                  </div>
+                  <div class="col about-list">
+                    <ul>
+                      <li>Si seleccionas todos los síntomas del COVID-19, nuestros datos podrán informar a profesionales
+                        y entidades de la salud para que evalúen tu estado y, de ser necesario, te transladen a una
+                        unidad médica autorizada. Miscua podrá agilizar este proceso con un uso responsable de la app.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- .section-containter -->
+              <ul class="section-actions">
+                <li><a href="Miscua.apk" class="btn scrollto"><span>Obtenla Gratis</span>
+                    <em class="icon ni ni-arrow-long-right"></em></a></li>
+                <li><a href="infografia.html" class="btn btn-transparent scrollto"><span>Guía para usar Miscua</span>
+                    <em class="icon ni ni-arrow-long-right"></em></a></li>
+              </ul><!-- .section-actions -->
+            </div><!-- .list-block -->
+          </div><!-- .col -->
+          <div class=" col-sm-10 col-md-8 col-lg-4">
+            <img src="images/gfx/about-phone.png" class="mb-2 mb-sm-0" alt="">
+          </div><!-- .col -->
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+    <section class="section section-l bg-light section-spread" id="spread">
+      <div class="container">
+        <div class="section-head text-center wide-md">
+          <h5 class="subtitle">Tres botones principales</h5>
+          <h2 class="title">JUNTOS CORTAREMOS LA TRANSMISIÓN DEL VIRUS<br class="d-sm-none"> COVID-19</h2>
+          <p>Todos los días los médicos y científicos nos proporcionan nuevos descubrimientos sobre el virus.
+            Aún estamos aprendiendo a conocerlo. Sin embargo, podemos prevenir más contagios informando a
+            los otros sobre tu salud actual y analizando los riesgos de contagion de tu entorno.</p>
+        </div><!-- .section-head -->
+        <div class="section-content">
+          <div class="row g-gs justify-content-center">
+            <div class="col-sm-10 col-md-8 col-lg-4">
+              <div class="box">
+                <div class="box-gfx">
+                  <img src="images/gfx/boy-city.png" alt="">
+                </div>
+                <div class="box-content">
+                  <h4 class="title">Voy a salir de casa </h4>
+                  <p> Las relaciones “persona a persona” son el principal medio de contagio del
+                    coronavirus. Al salir de casa, selecciona la actividad que realizarás. Así nos
+                    ayudarás a establecer cuáles serían las actividades
+                    que presentan mayor posibilidad de transmisión del virus.</p>
+                </div>
+              </div><!-- .box -->
+            </div><!-- .col -->
+            <div class="col-sm-10 col-md-8 col-lg-4">
+              <div class="box">
+                <div class="box-gfx">
+                  <img src="images/gfx/women.png" alt="">
+                </div>
+                <div class="box-content">
+                  <h4 class="title">Riesgo de contagio</h4>
+                  <p>En el momento que avises tu regreso a casa, se analizarán los datos que
+                    proporcionaste inicialmente, para hacer una proyección sobre el riesgo de
+                    contagio al que estuviste expuesto. Así mismo, podrás ver un historial de
+                    las zonas donde transitaste.
+                  </p>
+                </div>
+              </div><!-- .box -->
+            </div><!-- .col -->
+            <div class="col-sm-10 col-md-8 col-lg-4">
+              <div class="box">
+                <div class="box-gfx">
+                  <img src="images/gfx/virus.png" alt="">
+                </div>
+                <div class="box-content">
+                  <h4 class="title">Positivo al COVID-19</h4>
+                  <p>Si alguien informa que es positivo dentro de la app, Miscua enviará el
+                    historial completo al INS (Instituto Nacional de Salud) en conjunto con
+                    los individuos que tuvieron contacto con esa persona, y el reporte de las
+                    áreas visitadas por el positivo. Así podremos rastrear los posibles contagios y
+                    juntos ayudaremos a cortar la cadena de contagio.</p>
+                </div>
+              </div><!-- .box -->
+            </div><!-- .col -->
+          </div><!-- .row -->
+          <ul class="section-actions">
+            <li><a href="#faq" class="btn scrollto"><em class="icon ni ni-question"></em><span>Tienes alguna pregunta
+                  sobre el virus?</span></a></li>
+          </ul><!-- .section-actions -->
+        </div><!-- .section-content -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+    <section class="section section-l bg-white section-symptom" id="symptoms">
+      <div class="container">
+        <div class="section-head text-center wide-lg">
+          <h5 class="subtitle">¿Podría ser positivo del covid-19?</h5>
+          <h2 class="title">síntomas del coronavirus</h2>
+          <p> Fiebre, cansancio y tos seca son algunos síntomas comunes del COVID-19. Algunos pacientes pueden tener
+            dolores y molestias, congestión nasal, secreción nasal, dolor de
+            garganta o diarrea. Estos síntomas generalmente son leves y se intensifican gradualmente. Además, los
+            síntomas pueden aparecer transcurridos entre 2 y 14 días después de la exposición.</p>
+        </div><!-- .section-head -->
+        <div class="section-content">
+          <div class="row g-gs justify-content-center">
+            <div class="col-sm-10 col-md-8 col-lg-4">
+              <div class="box2">
+                <div class="box2-gfx">
+                  <img src="images/gfx/symptom-a.png" alt="">
+                </div>
+                <div class="box2-content">
+                  <h5 class="title">Fiebre</h5>
+                  <p><strong>Fiebre alta</strong> – La temperatura normal de las personas oscila entre 36 y 37 grados
+                    centígrados. Si nuestra temperatura supera los 38
+                    grados hay que estar atentos. Puedes comunicarte a la línea de atención del misnisterio de salud:
+                    192</p>
+                </div>
+              </div><!-- .box2 -->
+            </div><!-- .col -->
+            <div class="col-sm-10 col-md-8 col-lg-4">
+              <div class="box2">
+                <div class="box2-gfx">
+                  <img src="images/gfx/symptom-b.png" alt="">
+                </div>
+                <div class="box2-content">
+                  <h5 class="title">Tos</h5>
+                  <p><strong>Tos continua</strong> – Si toses mucho durante más de una hora, o has tenido 3 o más
+                    episodios de tos en 24 horas infórmanos por medio de Miscua.
+                    Analizaremos los datos y te aconsejaremos la pertinencia o no de asistir a una unidad
+                  </p>
+                </div>
+              </div><!-- .box2 -->
+            </div><!-- .col -->
+            <div class="col-sm-10 col-md-8 col-lg-4">
+              <div class="box2">
+                <div class="box2-gfx">
+                  <img src="images/gfx/symptom-c.png" alt="">
+                </div>
+                <div class="box2-content">
+                  <h5 class="title">Falta de aliento</h5>
+                  <p><strong>Dificultad para respirar</strong> – Este es el síntoma que más ha de preocuparnos. Supone
+                    que el virus está progresando en tu organismo.
+                    Puede estar acompañado de frío, sudor, desmayos, desorientación, habla incoherente. Informa por
+                    medio de Miscua, prestaremos especial atención
+                    a este síntoma porque posiblemente cursas señales de gravedad.
+                  </p>
+                </div>
+              </div><!-- .box2 -->
+            </div><!-- .col -->
+          </div><!-- .row -->
+          <div class="section-cta">
+            <div class="row g-gs justify-content-center">
+              <div class="col-sm-10 col-md-8 col-lg-7 col-xl-8">
+                <div class="notes">
+                  <em class="icon ni ni-alert-fill-c"></em>
+                  <p><strong>Quédate en casa, protege a los demás:</strong> Si crees que has estado expuesto al virus
+                    SARS COV-2, tienes fiebre y cualquier otro
+                    síntoma como tos o dificultad para respirar, informa en Miscua y la línea de atención 192 para
+                    recibir asesoramiento médico. Quédate en casa,
+                    acudir a lugares con aglomeracion puede favorecer contagios (El tuyo, en caso de que presentes
+                    infección respiratoria por otro microorganismo)
+                    y el de los demás en caso de estar infectado por coronavirus (COVID-19).
+                  </p>
+                </div>
+              </div><!-- .col -->
+              <div class="col-sm-10 col-md-8 col-lg-5 col-xl-4">
+                <div class="d-flex justify-content-lg-end ml-sm-5 ml-4 pl-3 ml-lg-0 pl-lg-0">
+                  <a href="#faq" class="btn scrollto"><em class="icon ni ni-question"></em><span>¿Tienes alguna
+                      pregunta?</span></a>
+                </div>
+              </div><!-- .col -->
+            </div><!-- .row -->
+          </div>
+        </div><!-- .section-content -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+    <section class="section section-l bg-light section-advice pb-0 ov-h" id="prevention">
+      <div class="container">
+        <div class="section-head text-center wide-lg">
+          <h5 class="subtitle">¿Cómo puedes protegerte?</h5>
+          <h2 class="title">Consejos para <br class="d-sm-none">la prevención</h2>
+          <p>Actualmente no existe una vacuna para prevenir la enfermedad por coronavirus 2019 (COVID-19). <strong>La
+              mejor manera de prevenir la enfermedad es evitar
+              exponerse al virus.</strong> Mantente al tanto de la información más reciente sobre el brote disponible en
+            el sitio
+            web de la OMS, la página oficial del ministerio de salud y sigue las instrucciones de las autoridades
+            gubernamentales.
+          </p>
+        </div><!-- .section-head -->
+        <div class="section-content">
+          <div class="row g-gs gy-sm-m">
+            <div class="col-lg-3 col-sm-6">
+              <div class="box3">
+                <div class="box3-gfx">
+                  <img src="images/gfx/advice-a.png" alt="">
+                </div>
+                <div class="box3-content">
+                  <h5 class="title">Lava tus manos frecuentemente</h5>
+                  <p>Limpia tus manos regularmente con agua y jabón durante al menos 20 segundos, en lo posible usa gel
+                    desinfectante para manos a base de alcohol.
+                  </p>
+                </div>
+              </div><!-- .box3 -->
+            </div><!-- .col -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="box3">
+                <div class="box3-gfx">
+                  <img src="images/gfx/advice-b.png" alt="">
+                </div>
+                <div class="box3-content">
+                  <h5 class="title">Distanciamiento social</h5>
+                  <p>Manten al menos 2 metros de distancia dentro y fuera de casa, especialmente si se trata de ua
+                    persona que esté tosiendo o estornudando.
+                    Si estás demasiado cerca podrías infectarte.
+                  </p>
+                </div>
+              </div><!-- .box3 -->
+            </div><!-- .col -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="box3">
+                <div class="box3-gfx">
+                  <img src="images/gfx/advice-c.png" alt="">
+                </div>
+                <div class="box3-content">
+                  <h5 class="title">Evita tocarte la cara</h5>
+                  <p>Nuestras manos constantemente tocan muchas superficies y pueden contraer el virus. El virus puede
+                    transferirse a tu organismo por medio de tus sus ojos, nariz o boca.
+                  </p>
+                </div>
+              </div><!-- .box3 -->
+            </div><!-- .col -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="box3">
+                <div class="box3-gfx">
+                  <img src="images/gfx/advice-d.png" alt="">
+                </div>
+                <div class="box3-content">
+                  <h5 class="title">Higiene respiratoria</h5>
+                  <p>Manten una buena higiene respiratoria al cubrir la boca y la nariz con el codo o con un pañuelo
+                    doblado al toser o estornudar.
+                  </p>
+                </div>
+              </div><!-- .box3 -->
+            </div><!-- .col -->
+          </div><!-- .row -->
+          <ul class="section-actions">
+            <li><a href="#handwash" class="btn scrollto"><span>Mira aquí cómo lavar tus manos</span>
+                <em class="icon ni ni-arrow-long-right"></em></a></li>
+          </ul><!-- .section-actions -->
+        </div><!-- .section-content -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+    <section class="section section-l bg-light section-steps pb-4" id="steps">
+      <div class="container">
+        <div class="section-content section-content-boxed">
+          <div class="row g-gs justify-content-center align-items-center">
+            <div class="col-lg-8">
+              <div class="list-block pr-lg-4">
+                <h4 class="title">Protégete y protejamos a los demás</h4>
+                <ul class="list-check">
+                  <li><strong>Quédate en casa si estás enfermo</strong> – Excepto para recibir atención médica en caso
+                    de que personal profesional no pueda visitarte.</li>
+                  <li><strong>Cubre tu boca y nariz</strong> – Usa la parte interna del codo o un pañuelo al toser o
+                    estornudar. Dentro y fuera de casa.</li>
+                  <li><strong>Usa un tapabocas</strong> – En espacios de aglomeración y hospitales.</li>
+                  <li><strong>Limpia y desinfecte las superficies que frecuentemente son tocadas</strong> – la medida
+                    incluye teléfonos, mesas, interruptores de luz, pomos de puertas, escritorios, inodoros, grifos y
+                    lavabos.</li>
+                  <li><strong>Limpia la superficie de tus zapatos</strong> – Usa detergente y alcohón en spray. El virus
+                    puede vivir durante varias horas en la superficie de tus zapatos.</li>
+                  <li><strong>Mantente informado sobre las medidas tomadas por los entes gubernamentales</strong> –
+                    funcionarios y profesionales de la salud pública constantemente informan sobre las nuevas medidas a
+                    tomar según mutación del virus y estado de la pandemia.</li>
+                  <li><strong>Cesto de basura dedicado</strong> – Si es posible, dedica un cesto de basura forrado para
+                    la persona enferma. Usa guantes al retirar las bolsas de basura y al manipular los desechos.</li>
+                </ul>
+              </div><!-- .list-block -->
+            </div><!-- .col -->
+            <div class=" col-sm-10 col-md-8 col-lg-4">
+              <img src="images/gfx/steps.png" class="mb-2 mb-sm-0" alt="">
+            </div><!-- .col -->
+          </div><!-- .row -->
+        </div><!-- .section-content -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+    <section class="section section-l bg-light section-handwash" id="handwash">
+      <div class="container mt-n4">
+        <div class="section-subhead text-center">
+          <h4 class="title">Sigue estos pasos para <br class="d-sm-none"> lavar tus manos</h4>
+          <a href="#faq" class="btn btn-sm btn-transparent scrollto"><span>¿Por qué necesito lavar mis manos?</span><em
+              class="icon ni ni-arrow-long-right"></em></a>
+        </div>
+        <div class="section-content">
+          <div class="row g-gs justify-content-center">
+            <div class="col-6 col-mb-5 col-sm-4 col-lg-2">
+              <div class="box4">
+                <div class="box4-gfx">
+                  <img src="images/gfx/hand-a.png" alt="">
+                </div>
+                <div class="box4-content">
+                  <h6 class="title">Usa jabón para manos</h6>
+                </div>
+              </div><!-- .box4 -->
+            </div><!-- .col -->
+            <div class="col-6 col-mb-5 col-sm-4 col-lg-2">
+              <div class="box4">
+                <div class="box4-gfx">
+                  <img src="images/gfx/hand-b.png" alt="">
+                </div>
+                <div class="box4-content">
+                  <h6 class="title">frota con fuerza las palmas</h6>
+                </div>
+              </div><!-- .box4 -->
+            </div><!-- .col -->
+            <div class="col-6 col-mb-5 col-sm-4 col-lg-2">
+              <div class="box4">
+                <div class="box4-gfx">
+                  <img src="images/gfx/hand-c.png" alt="">
+                </div>
+                <div class="box4-content">
+                  <h6 class="title">Lava cada dedo</h6>
+                </div>
+              </div><!-- .box4 -->
+            </div><!-- .col -->
+            <div class="col-6 col-mb-5 col-sm-4 col-lg-2">
+              <div class="box4">
+                <div class="box4-gfx">
+                  <img src="images/gfx/hand-d.png" alt="">
+                </div>
+                <div class="box4-content">
+                  <h6 class="title">Vuelve a frotar las manos</h6>
+                </div>
+              </div><!-- .box4 -->
+            </div><!-- .col -->
+            <div class="col-6 col-mb-5 col-sm-4 col-lg-2">
+              <div class="box4">
+                <div class="box4-gfx">
+                  <img src="images/gfx/hand-e.png" alt="">
+                </div>
+                <div class="box4-content">
+                  <h6 class="title">Enjuaga con agua abundante</h6>
+                </div>
+              </div><!-- .box4 -->
+            </div><!-- .col -->
+            <div class="col-6 col-mb-5 col-sm-4 col-lg-2">
+              <div class="box4">
+                <div class="box4-gfx">
+                  <img src="images/gfx/hand-f.png" alt="">
+                </div>
+                <div class="box4-content">
+                  <h6 class="title">Seca incluyendo la muñeca</h6>
+                </div>
+              </div><!-- .box4 -->
+            </div><!-- .col -->
+          </div><!-- .row -->
+        </div><!-- .section-content -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+    <section class="section section-l bg-accent-light tc-light section-treatment has-overlay" id="treatment">
+      <div class="overlay shape shape-b"></div><!-- Overlay Shape -->
+      <div class="container">
+        <div class="section-content">
+          <div class="row g-gs gy-sm-m justify-content-between align-items-center">
+            <div class="col-lg-7 col-xl-6">
+              <div class="text-block">
+                <h5 class="subtitle">Ten cuidado y mantente seguro</h5>
+                <h2 class="title">Tratamientos para el Coronavirus</h2>
+                <p> <strong>Hasta la fecha, no hay vacuna ni medicamento antiviral específico para prevenir o tratar
+                    SARS COV-2. </strong> Sin embargo,
+                  los afectados deben recibir atención para aliviar los síntomas. Las personas con síntomas graves deben
+                  ser hospitalizadas. La mayoría
+                  de los pacientes se recuperan gracias a la atención de apoyo.
+                </p>
+                <p>Los antibióticos no ayudan, no funcionan contra los virus. El tratamiento tiene como objetivo aliviar
+                  los síntomas mientras su cuerpo combate la enfermedad.
+                  El paciente de COVID-19 tendrá que permanecer aislado, alejado de otras personas, hasta que se haya
+                  recuperado.
+                </p>
+              </div><!-- .text-block -->
+            </div><!-- .col -->
+            <div class="col-lg-5">
+              <div class="box5 bg-accent-dark">
+                <h6 class="title">Cuidado propio</h6>
+                <p>Si tienes síntomas leves, quédate en casa hasta que te recupere. Puedes aliviar tus síntomas si:</p>
+                <ul class="list-arrow">
+                  <li>Duermes y descansas</li>
+                  <li>Te mantienes caliente</li>
+                  <li>Bebes constantemente líquidos</li>
+                  <li>Toma una ducha caliente para ayudar a aliviar el dolor de garganta y la tos.</li>
+                </ul>
+                <h6 class="title">Tratamientos médicos</h6>
+                <p>Si tienes fiebre, tos y dificultad para respirar, busque atención médica de inmediato. Llame con
+                  anticipación al 192, informa de tus síntomas en Miscua y
+                  informa a tu proveedor de salud sobre cualquier viaje reciente o contacto reciente con viajeros.
+                </p>
+              </div><!-- .box5 -->
+            </div><!-- .col -->
+          </div><!-- .row -->
+        </div><!-- .section-content -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+    <section class="section section-l bg-light section-protect" id="protect">
+      <div class="container">
+        <div class="section-head text-center wide-lg">
+          <h5 class="subtitle">¿Qué hacer y qué no hacer?</h5>
+          <h2 class="title">Protégete</h2>
+          <p>Lo mejor que puedes hacer ahora es planificar cómo puedes adaptar tu rutina diaria. Toma algunas medidas
+            para protegerte, lávate las manos con frecuencia,
+            evita el contacto cercano, cubre la tos y los estornudos, limpia las superficies de uso diario, etc. La
+            mejor manera de prevenir enfermedades es evitar la
+            exposición al virus.
+          </p>
+        </div><!-- .section-head -->
+        <div class="section-content">
+          <div class="row g-gs justify-content-center flex-lg-nowrap">
+            <div class="col-md-8 col-lg-5 col-xl-6 align-self-end">
+              <div class="protect-block-gfx">
+                <img src="images/gfx/protect.png" alt="">
+              </div>
+            </div><!-- .col -->
+            <div class="col-6 col-mb-5 col-sm-6 col-lg-4 col-xl-3 flex-grow-1 order-lg-first">
+              <div class="protect-item negative">
+                <div class="protect-gfx">
+                  <img src="images/gfx/donts-a.png" alt="">
+                </div>
+                <div class="protect-text">
+                  <h5 class="title">Evita el contacto cercano</h5>
+                </div>
+              </div><!-- .protext-item -->
+              <div class="protect-item negative">
+                <div class="protect-gfx">
+                  <img src="images/gfx/donts-b.png" alt="">
+                </div>
+                <div class="protect-text">
+                  <h5 class="title">No te toques el rostro</h5>
+                </div>
+              </div><!-- .protext-item -->
+              <div class="protect-item negative">
+                <div class="protect-gfx">
+                  <img src="images/gfx/donts-c.png" alt="">
+                </div>
+                <div class="protect-text">
+                  <h5 class="title">Manten distancia social</h5>
+                </div>
+              </div><!-- .protext-item -->
+            </div><!-- .col -->
+            <div class="col-6 col-mb-5 col-sm-6 col-lg-4 col-xl-3 flex-grow-1 ">
+              <div class="protect-item positive">
+                <div class="protect-gfx">
+                  <img src="images/gfx/dos-a.png" alt="">
+                </div>
+                <div class="protect-text">
+                  <h5 class="title">WLava tus manos</h5>
+                </div>
+              </div><!-- .protext-item -->
+              <div class="protect-item positive">
+                <div class="protect-gfx">
+                  <img src="images/gfx/dos-b.png" alt="">
+                </div>
+                <div class="protect-text">
+                  <h5 class="title">Toma mucha agua</h5>
+                </div>
+              </div><!-- .protext-item -->
+              <div class="protect-item positive">
+                <div class="protect-gfx">
+                  <img src="images/gfx/dos-c.png" alt="">
+                </div>
+                <div class="protect-text">
+                  <h5 class="title">Usa tapabocas</h5>
+                </div>
+              </div><!-- .protext-item -->
+            </div><!-- .col -->
+          </div><!-- .row -->
+        </div><!-- .section-content -->
+      </div><!-- .container -->
+    </section><!-- .section -->
+
+
+    <footer class="nk-footer bg-dark tc-light has-overlay">
+      <div class="overlay shape shape-c"></div><!-- Overlay Shape -->
+      <section class="section section-footer section-m tc-light">
+        <div class="container">
+          <div class="nk-footer-top">
+            <div class="row g-gs gy-m">
+              <div class="col-lg-3 col-md-9 mr-auto">
+                <div class="wgs wgs-about">
+                  <div class="wgs-logo logo">
+                    <a href="./" class="logo-link">
+                      <img src="images/logo-white.png" srcset="images/logo-white2x.png 2x" alt="logo">
+                    </a>
+                  </div>
+                  <div class="wgs-about-text">
+                    <p> Miscua es una iniciativa sin ánimo de lucro impulsada por un colectivo formado por empresas y
+                      colombianos independientes. Su objetivo fundamental
+                      es contribuir en al actual apuesta nacional por frenar la cadena de contagio del SARS COV-2.
+                    </p>
+                    <p> Miscua es un concepto del muysca que se usa como correlativo para agregar significado de
+                      <em>transitar, ir, caminar, conducirse</em> a otros términos.
+                    </p>
+                  </div>
+                  <ul class="wgs-social">
+                    <li><a href="http://facebook.com/miscuaapp"><em class="icon ni ni-facebook-f"></em></a></li>
+                    <li><a href="http://instagram.com/miscuaapp"><em class="icon ni ni-instagram"></em></a></li>
+                  </ul>
+                </div><!-- .wgs -->
+              </div><!-- .col -->
+              <div class="col-sm-4 col-lg-2">
+                <div class="wgs wgs-menu">
+                  <h6 class="wgs-title">Cocreadores</h6>
+                  <ul class="wgs-links">
+                    <li><a class="scrollto" href="http://pluriza.com">Pluriza</a></li>
+                    <li><a class="scrollto" href="http://conicomlab.com">ConicomLab</a></li>
+                    <li><a class="scrollto" href="http://thedataculture.com">The Data Cultures</a></li>
+                    <li><a class="scrollto" href="http://doniben.tech">Doĉja Filmo</a></li>
+                    <li><a class="scrollto" href="http://comunicaciones.primernombre.com">Comunicaciones Primer
+                        Nombre</a></li>
+                    <li><a class="scrollto" href="http://b4bcompany.com/">B4B Company</a></li>
+                  </ul>
+                </div><!-- .wgs -->
+              </div><!-- .col -->
+              <div class="col-sm-4 col-lg-3">
+                <div class="wgs wgs-menu">
+                  <h6 class="wgs-title">Links de ayuda</h6>
+                  <ul class="wgs-links">
+                    <li><a href="#">Healthcare Professionals</a></li>
+                    <li><a href="#">Healthcare Facilities</a></li>
+                    <li><a href="#">Older Adults & Medical Conditions</a></li>
+                    <li><a href="#">Repare your Family</a></li>
+                  </ul>
+                </div><!-- .wgs -->
+              </div><!-- .col -->
+              <div class="col-sm-4 col-lg-2">
+                <div class="wgs wgs-menu">
+                  <h6 class="wgs-title">Páginas Oficiales</h6>
+                  <ul class="wgs-links">
+                    <li><a href="http://minsalud.gov.co">Ministerio de Salud</a></li>
+                    <li><a href="http://ins.gov.co">Instituto Nacional de la Salud</a></li>
+                    <li><a
+                        href="https://www.elespectador.com/coronavirus/esta-es-la-situacion-del-coronavirus-en-colombia-en-tiempo-real-articulo-909153">Cifras
+                        en tiempo real - El Espectador</a></li>
+                  </ul>
+                </div><!-- .wgs -->
+              </div><!-- .col -->
+            </div><!-- .row -->
+          </div><!-- .nk-footer-top -->
+          <div class="nk-footer-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <p class="nk-copyright">&copy; 2020 Miscua.</p>
+              </div><!-- .col -->
+              <div class="col-md-6">
+                <ul class="nk-footer-links justify-content-md-end">
+                  <li><a href="politica-de-privacidad.html">Política de privacidad</a></li>
+                </ul>
+              </div><!-- .col -->
+            </div><!-- .row -->
+            <div class="row">
+              <div class="col-12">
+                <div class="nk-dislaimer">
+                </div>
+              </div>
+            </div>
+          </div><!-- .nk-footer-bottom -->
+        </div><!-- .container -->
+      </section><!-- .section -->
+    </footer><!-- .nk-footer -->
+
   </div>
 </div>
